@@ -1,0 +1,66 @@
+{
+    "command_number" : {
+        "3" : {
+            "unit" : "car",
+            "action": {
+                "0": "stop",
+                "1": "move left",
+                "2": "move right",
+                "3": "move forward",
+                "4": "move backward"
+            }
+        },
+        "1" : {
+            "unit" : "car",
+            "action": {
+                "0": "stop"
+            }
+        },
+        "4" : {
+            "unit" : "car",
+            "action": "turn"
+        },
+        "5" : {
+            "unit" : "supersonic unit",
+            "action": {
+                "1": "rotate horrizzontally",
+                "2": "rotate vertically"
+            }
+        },
+        "21" : {
+            "unit" : "ultrasonic unit",
+            "action": {
+                "1": "detect obstacle",
+                "2": "measure dinstance"
+            }
+        },
+        "23" : {
+            "unit" : "ultrasonic unit",
+            "action": "check off the ground"
+        },
+        "101" : {
+            "unit" : "car",
+            "action":  {
+                "0": "switch to follow standby mode",
+                "1": "switch to follow black line mode",
+                "2": "switch to obstacle avoidance mode",
+                "3": "switch to follow mode"
+            }
+        },
+        "110" : {
+            "unit" : "car",
+            "action":  "restart"
+        },
+        "111" : {
+            "unit" : "camera",
+            "action":  "capture image"
+        },
+        "404" : {
+            "unit" : "car",
+            "action":  "close connection"
+        }
+
+
+    }
+    
+}
